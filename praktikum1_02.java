@@ -1,3 +1,5 @@
+package jobsheet1;
+
 import java.util.Scanner;
 
 public class praktikum1_02{
@@ -24,7 +26,7 @@ public class praktikum1_02{
             System.out.println("================================");
         }
 
-        double nilaiAkhir = 0.1*tugas  + 0.2*kuis + 0.3*uts + 0.4*uas;
+        double nilaiAkhir = 0.2*tugas  + 0.2*kuis + 0.3*uts + 0.3*uas;
 
         String nilaiHuruf;
         String ket;
@@ -60,8 +62,11 @@ public class praktikum1_02{
         System.out.println("================================");
         System.out.println("================================");
 
-        if (nilaiHuruf.equalsIgnoreCase("A")||nilaiHuruf.equalsIgnoreCase("B+")||nilaiHuruf.equalsIgnoreCase("B")
-        ||nilaiHuruf.equalsIgnoreCase("C+")||nilaiHuruf.equalsIgnoreCase("C")) {
+        if (nilaiHuruf.equalsIgnoreCase("A") ||
+            nilaiHuruf.equalsIgnoreCase("B+")||
+            nilaiHuruf.equalsIgnoreCase("B") ||
+            nilaiHuruf.equalsIgnoreCase("C+")||
+            nilaiHuruf.equalsIgnoreCase("C")) {
             System.out.println("SELAMAT ANDA LULUS");
         } else{
             System.out.println("MAAF ANDA TIDAK LULUS");
